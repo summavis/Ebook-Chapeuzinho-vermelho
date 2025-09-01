@@ -1,0 +1,491 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: row-reverse;
+    gap: 1%;
+}
+
+body {
+    background-image: url(../images/bggeral.png);
+    background-size: cover;
+    position: relative;
+}
+
+.paginas {
+    background-color: #FCC0C3;
+    border: 3px solid white;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10% 0%;
+}
+
+h1{
+    font-size: 3vh;
+    color: #B61D22;
+}
+
+.row div {
+    background-color: transparent;
+    border: 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 1% 0%;
+}
+
+
+.row div p, .row div a {
+    text-align: center;
+    text-decoration: none;
+    color: #B61D22;
+    background-color: white;
+    display: flex;
+    padding: 1px 1px;
+    width: 7vmin;
+    height: 3vmin;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.9vh;
+}
+nav {
+    width: fit-content;
+    top: 6.7vh;
+    left: 3%;
+}
+
+nav > div{
+    position: relative;
+}
+
+nav div li{
+    list-style: none;
+}
+
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.controls button {
+    position: relative;
+}
+
+.controls .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main {
+    position: relative;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+button div {
+    opacity: 0 !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    color: transparent !important;
+}
+
+button {
+    border: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: fit-content;
+    position: absolute;
+    cursor: pointer;
+    transition: 1s all;
+    width: fit-content;
+}
+
+video {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-height: 51vh;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button img {
+    height: 7vh;
+    opacity: 0;
+}
+
+
+p,
+p:hover {
+    opacity: 0 !important;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.vw-text--hover,
+p {
+    opacity: 0 !important;
+}
+
+.page {
+    display: none;
+    overflow: hidden;
+}
+
+.page.active {
+    display: block;
+}
+
+.livro {
+    max-height: 80vh;
+    max-width: 80vw;
+    width: fit-content;
+    border: #FDC689 solid 20px;
+    background-size: cover;
+}
+
+
+.livro img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 80vh !important;
+}
+
+
+.livro img:first-child{
+    position: relative;
+    max-width: 100%;
+    max-height: 80vh !important;
+}
+
+.shake {
+    animation: shake 2s linear infinite;
+}
+
+.shake2 {
+    animation: shake 5s linear infinite;
+    animation-delay: 3s;
+}
+
+.shake3 {
+    animation: shake2 2s linear infinite;
+    animation-delay: 1s;
+}
+
+.rotate {
+    animation: smoothrotate 2s infinite;
+    transform-origin: 70% 92%;
+}
+
+.rotate2 {
+    animation: smoothrotate2 10s infinite;
+    transform-origin: 52% 74%;
+}
+
+.rotate3 {
+    animation: smoothrotate2 2s infinite;
+    transform-origin: 52% 74%;
+}
+
+.rotate4 {
+    animation: smoothrotate 5s infinite;
+    transform-origin: 49% 0%;
+}
+
+.rotate5 {
+    animation: chapeu 3s linear infinite;
+    transform-origin: 30% 13%;
+}
+
+.pulse {
+    animation: pulse 2s linear infinite;
+}
+
+.pulse2 {
+    animation: pulse2 2s linear infinite;
+}
+
+
+.Rrrrr {
+    font: italic 40px serif;
+    fill: red;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+#muteButton.muted {
+    background-image: url(../images/somdesligado.png);
+}
+
+#muteButton.unmuted {
+    background-image: url(../images/somligado.png);
+}
+
+
+#toggleAudioDescription.active {
+    background-image: url(../images/audiodescligada.png);
+}
+
+#toggleAudioDescription.inactive {
+    background-image: url(../images/audiodesdesligada.png);
+}
+
+#librasButton.muted{
+    background-image: url(../images/desativarlibras.png);
+}
+
+#librasButton.unmuted{
+    background-image: url(../images/libras.png);
+}
+
+
+.access-button,
+.pop-up {
+    display: none !important;
+}
+
+
+@keyframes shake {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(-5%, 5%);
+    }
+
+
+    100% {
+        transform: translate(0, 0);
+    }
+
+}
+
+@keyframes shake2 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(0%, 31%);
+    }
+
+
+    100% {
+        transform: translate(0, 0);
+    }
+
+}
+
+@keyframes smoothrotate {
+    0% {
+        transform: rotate(0) translate(-2%, 0);
+    }
+
+    50% {
+        transform: rotate(2deg) translate(-2%, 0);
+    }
+
+
+    100% {
+        transform: rotate(0) translate(-2%, 0);
+    }
+
+}
+
+@keyframes smoothrotate2 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(0.5%, 0%);
+    }
+
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.02);
+    }
+
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes pulse2 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.01);
+    }
+
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes chapeu {
+    0% {
+        transform: rotate(1deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+    }
+
+
+    100% {
+        transform: rotate(1deg);
+    }
+}
+
+@keyframes piscar {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+.piscar {
+    animation: piscar 2s infinite; 
+}
+
+@keyframes vaievem {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(-5%, 0%);
+    }
+
+
+    100% {
+        transform: translate(0, 0);
+    }
+
+}
+
+.vaievem {
+    animation: vaievem 2s linear infinite;
+}
+
+
+.rotate-notification {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1000;
+    padding: 20px;
+    flex-direction: column;
+    bottom: 0;
+    right: 0;
+}
+
+.rotate-notification.hidden {
+    display: none;
+}
+
+.rotate-image {
+    max-width: 70vw;
+    margin-bottom: 20px;
+}
+
+.audio-controller {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    gap: 10px;
+}
+
+.audio-controller button {
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+
+#playPauseAudio img{
+    opacity: 1 !important;
+}
+
+/* Classe que define o efeito de zoom no contêiner */
+.zoom-active {
+    transition: transform 0.3s ease; /* Suaviza o efeito de zoom */
+    transform: scale(2); /* Aplica o zoom em todo o contêiner */
+    cursor: zoom-in;
+}
+

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" uniqueidentifier="BookId">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>Chapeuzinho Vermelho</dc:title>
+        <dc:language>pt-br</dc:language>
+        <dc:creator opf:role="aut" opf:file-as="Ruth Rocha">
+        Ruth Rocha
+        </dc:creator>
+        <dc:publisher>LDM</dc:publisher>
+        <dc:date>2024</dc:date>
+        <dc:description>Você já ouviu falar dessa menina, que tem de ir à casa da vovó, e no caminho acaba se encontrando com um lobo com cara de bonzinho? RUTH ROCHA reconta em versos tão bonitinhos a história da Chapeuzinho Vermelho, com rimas e coloridas ilustrações que trazem o imaginário de um conto tão conhecido e que pode ser recontado de diferentes formas com muita criatividade!</dc:description>
+        <meta name="cover" content="cover.jpg" />
+        <x-metadata>
+            <EmbeddedCover>cover.jpg</EmbeddedCover>
+        </x-metadata>
+        <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+        <meta property="schema:accessibilityFeature">tableOfContents</meta>
+        <meta property="schema:accessibilityAPI">ARIA</meta>
+    </metadata>
+
+  <manifest>
+        <item id="toc" properties="nav" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+        <item id="index" href="index.html" media-type="application/xhtml+xml"/>
+        <item id="content" href="./content/content.html" media-type="application/xhtml+xml"/>
+        <item id="style" href="resources/styles/style.css" media-type="text/css"/>
+        <item id="script" href="resources/scripts/script.js" media-type="application/javascript"/>
+        <item id="cover" href="cover.jpg" media-type="image/jpg"/>  
+
+        <item id="audio1" href="resources/audios/audio1.mp3" media-type="audio/mpeg"/>
+        <item id="audio1desc" href="resources/audios/audio1desc.mp3" media-type="audio/mpeg"/>
+        <item id="audio2" href="resources/audios/audio2.mp3" media-type="audio/mpeg"/>
+        <item id="audio2desc" href="resources/audios/audio2desc.mp3" media-type="audio/mpeg"/>
+        <item id="audio3" href="resources/audios/audio3.mp3" media-type="audio/mpeg"/>
+        <item id="audio3desc" href="resources/audios/audio3desc.mp3" media-type="audio/mpeg"/>
+        <item id="audio4" href="resources/audios/audio4.mp3" media-type="audio/mpeg"/>
+        <item id="audio4desc" href="resources/audios/audio4desc.mp3" media-type="audio/mpeg"/>
+        <item id="audio5" href="resources/audios/audio5.mp3" media-type="audio/mpeg"/>
+        <item id="audio5desc" href="resources/audios/audio5desc.mp3" media-type="audio/mpeg"/>
+        <item id="audio6" href="resources/audios/audio6.mp3" media-type="audio/mpeg"/>
+        <item id="audio6desc" href="resources/audios/audio6desc.mp3" media-type="audio/mpeg"/>
+        <item id="audio7" href="resources/audios/audio7.mp3" media-type="audio/mpeg"/>
+        <item id="audio7desc" href="resources/audios/audio7desc.mp3" media-type="audio/mpeg"/>
+        <item id="audio8" href="resources/audios/audio8.mp3" media-type="audio/mpeg"/>
+        <item id="audio8desc" href="resources/audios/audio8desc.mp3" media-type="audio/mpeg"/>
+        <item id="audio9" href="resources/audios/audio9.mp3" media-type="audio/mpeg"/>
+        <item id="audio9desc" href="resources/audios/audio9desc.mp3" media-type="audio/mpeg"/>
+        <item id="audio10" href="resources/audios/audio10.mp3" media-type="audio/mpeg"/>
+        <item id="audio10desc" href="resources/audios/audio10desc.mp3" media-type="audio/mpeg"/>
+        <item id="audio11" href="resources/audios/audio11.mp3" media-type="audio/mpeg"/>
+        <item id="audio11desc" href="resources/audios/audio11desc.mp3" media-type="audio/mpeg"/>
+        <item id="audio12" href="resources/audios/audio12.mp3" media-type="audio/mpeg"/>
+        <item id="audio12desc" href="resources/audios/audio12desc.mp3" media-type="audio/mpeg"/>
+        <item id="audio13" href="resources/audios/audio13.mp3" media-type="audio/mpeg"/>
+        <item id="audio13desc" href="resources/audios/audio13desc.mp3" media-type="audio/mpeg"/>
+        <item id="audio14" href="resources/audios/audio14.mp3" media-type="audio/mpeg"/>
+        <item id="audio14desc" href="resources/audios/audio14desc.mp3" media-type="audio/mpeg"/>
+        <item id="audio15" href="resources/audios/audio15.mp3" media-type="audio/mpeg"/>
+        <item id="audio15desc" href="resources/audios/audio15desc.mp3" media-type="audio/mpeg"/>
+        <item id="audio16" href="resources/audios/audio16.mp3" media-type="audio/mpeg"/>
+        <item id="audio16desc" href="resources/audios/audio16desc.mp3" media-type="audio/mpeg"/>
+        <item id="audio17" href="resources/audios/audio17.mp3" media-type="audio/mpeg"/>
+        <item id="audio17desc" href="resources/audios/audio17desc.mp3" media-type="audio/mpeg"/>
+        <item id="audio18" href="resources/audios/audio18.mp3" media-type="audio/mpeg"/>
+        <item id="audio18desc" href="resources/audios/audio18desc.mp3" media-type="audio/mpeg"/>
+        <item id="audio19" href="resources/audios/audio19.mp3" media-type="audio/mpeg"/>
+        <item id="audio19desc" href="resources/audios/audio19desc.mp3" media-type="audio/mpeg"/>
+
+        <item id="libras1" href="resources/videos/libras1.mp4" media-type="video/mp4"/>
+        <item id="libras2" href="resources/videos/libras2.mp4" media-type="video/mp4"/>
+        <item id="libras3" href="resources/videos/libras3.mp4" media-type="video/mp4"/>
+        <item id="libras4" href="resources/videos/libras4.mp4" media-type="video/mp4"/>
+        <item id="libras5" href="resources/videos/libras5.mp4" media-type="video/mp4"/>
+        <item id="libras6" href="resources/videos/libras6.mp4" media-type="video/mp4"/>
+        <item id="libras7" href="resources/videos/libras7.mp4" media-type="video/mp4"/>
+        <item id="libras8" href="resources/videos/libras8.mp4" media-type="video/mp4"/>
+        <item id="libras9" href="resources/videos/libras9.mp4" media-type="video/mp4"/>
+        <item id="libras10" href="resources/videos/libras10.mp4" media-type="video/mp4"/>
+        <item id="libras11" href="resources/videos/libras11.mp4" media-type="video/mp4"/>
+        <item id="libras12" href="resources/videos/libras12.mp4" media-type="video/mp4"/>
+        <item id="libras13" href="resources/videos/libras13.mp4" media-type="video/mp4"/>
+        <item id="libras14" href="resources/videos/libras14.mp4" media-type="video/mp4"/>
+        <item id="libras15" href="resources/videos/libras15.mp4" media-type="video/mp4"/>
+        <item id="libras16" href="resources/videos/libras16.mp4" media-type="video/mp4"/>
+        <item id="libras17" href="resources/videos/libras17.mp4" media-type="video/mp4"/>
+        <item id="libras18" href="resources/videos/libras18.mp4" media-type="video/mp4"/>
+        <item id="libras19" href="resources/videos/libras19.mp4" media-type="video/mp4"/>
+
+        <item id="anterior" href="resources/images/anterior.png" media-type="image/png"/>
+        <item id="audiodescligada" href="resources/images/audiodescligada.png" media-type="image/png"/>
+        <item id="audiodesdesligada" href="resources/images/audiodesdesligada.png" media-type="image/png"/>
+        <item id="bggeral" href="resources/images/bggeral.png" media-type="image/png"/>
+        <item id="desativarlibras" href="resources/images/desativarlibras.png" media-type="image/png"/>
+        <item id="global" href="resources/images/global.png" media-type="image/png"/>
+        <item id="libras" href="resources/images/libras.png" media-type="image/png"/>
+        <item id="lupa" href="resources/images/lupa.png" media-type="image/png"/>
+        <item id="lupazoomin" href="resources/images/lupazoomin.png" media-type="image/png"/>
+        <item id="lupazoomout" href="resources/images/lupazoomout.png" media-type="image/png"/>
+        <item id="pause" href="resources/images/pause.png" media-type="image/png"/>
+        <item id="play" href="resources/images/play.png" media-type="image/png"/>
+        <item id="popup" href="resources/images/popup.png" media-type="image/png"/>
+        <item id="proximo" href="resources/images/proximo.png" media-type="image/png"/>
+        <item id="rotate-device" href="resources/images/rotate-device.png" media-type="image/png"/>
+        <item id="somdesligado" href="resources/images/somdesligado.png" media-type="image/png"/>
+        <item id="somligado" href="resources/images/somligado.png" media-type="image/png"/>   
+
+        <item id="bgpagina01" href="resources/images/bgpagina01.png" media-type="image/png"/>
+        <item id="bgpagina02" href="resources/images/bgpagina02.png" media-type="image/png"/>
+        <item id="bgpagina03" href="resources/images/bgpagina03.png" media-type="image/png"/>
+        <item id="bgpagina04" href="resources/images/bgpagina04.png" media-type="image/png"/>
+        <item id="bgpagina05" href="resources/images/bgpagina05.png" media-type="image/png"/>
+        <item id="bgpagina06" href="resources/images/bgpagina06.png" media-type="image/png"/>
+        <item id="bgpagina07" href="resources/images/bgpagina07.png" media-type="image/png"/>
+        <item id="bgpagina08" href="resources/images/bgpagina08.png" media-type="image/png"/>
+        <item id="bgpagina09" href="resources/images/bgpagina09.png" media-type="image/png"/>
+        <item id="bgpagina10" href="resources/images/bgpagina10.png" media-type="image/png"/>
+        <item id="bgpagina11" href="resources/images/bgpagina11.png" media-type="image/png"/>
+        <item id="bgpagina12" href="resources/images/bgpagina12.png" media-type="image/png"/>
+        <item id="bgpagina13" href="resources/images/bgpagina13.png" media-type="image/png"/>
+        <item id="bgpagina14" href="resources/images/bgpagina14.png" media-type="image/png"/>
+        <item id="bgpagina15" href="resources/images/bgpagina15.png" media-type="image/png"/>
+        <item id="bgpagina16" href="resources/images/bgpagina16.png" media-type="image/png"/>
+        <item id="bgpagina17" href="resources/images/bgpagina17.png" media-type="image/png"/>
+        <item id="bgpagina18" href="resources/images/bgpagina18.png" media-type="image/png"/>
+        <item id="bgpagina19" href="resources/images/bgpagina19.png" media-type="image/png"/>
+        <item id="pagina01_01" href="resources/images/pagina01_01.png" media-type="image/png"/>
+        <item id="pagina01_02" href="resources/images/pagina01_02.png" media-type="image/png"/>
+        <item id="pagina01_03" href="resources/images/pagina01_03.png" media-type="image/png"/>
+        <item id="pagina02_01" href="resources/images/pagina02_01.png" media-type="image/png"/>
+        <item id="pagina02_02" href="resources/images/pagina02_02.png" media-type="image/png"/>
+        <item id="pagina03_01" href="resources/images/pagina03_01.png" media-type="image/png"/>
+        <item id="pagina03_02" href="resources/images/pagina03_02.png" media-type="image/png"/>
+        <item id="pagina03_03" href="resources/images/pagina03_03.png" media-type="image/png"/>
+        <item id="pagina03_04" href="resources/images/pagina03_04.png" media-type="image/png"/>
+        <item id="pagina04_01" href="resources/images/pagina04_01.png" media-type="image/png"/>
+        <item id="pagina04_02" href="resources/images/pagina04_02.png" media-type="image/png"/>
+        <item id="pagina05_01" href="resources/images/pagina05_01.png" media-type="image/png"/>
+        <item id="pagina05_02" href="resources/images/pagina05_02.png" media-type="image/png"/>
+        <item id="pagina06_01" href="resources/images/pagina06_01.png" media-type="image/png"/>
+        <item id="pagina06_02" href="resources/images/pagina06_02.png" media-type="image/png"/>
+        <item id="pagina06_03" href="resources/images/pagina06_03.png" media-type="image/png"/>
+        <item id="pagina07_01" href="resources/images/pagina07_01.png" media-type="image/png"/>
+        <item id="pagina07_02" href="resources/images/pagina07_02.png" media-type="image/png"/>
+        <item id="pagina08_01" href="resources/images/pagina08_01.png" media-type="image/png"/>
+        <item id="pagina08_02" href="resources/images/pagina08_02.png" media-type="image/png"/>
+        <item id="pagina08_03" href="resources/images/pagina08_03.png" media-type="image/png"/>
+        <item id="pagina09_01" href="resources/images/pagina09_01.png" media-type="image/png"/>
+        <item id="pagina09_02" href="resources/images/pagina09_02.png" media-type="image/png"/>
+        <item id="pagina09_03" href="resources/images/pagina09_03.png" media-type="image/png"/>
+        <item id="pagina09_04" href="resources/images/pagina09_04.png" media-type="image/png"/>
+        <item id="pagina10_01" href="resources/images/pagina10_01.png" media-type="image/png"/>
+        <item id="pagina10_02" href="resources/images/pagina10_02.png" media-type="image/png"/>
+        <item id="pagina11_01" href="resources/images/pagina11_01.png" media-type="image/png"/>
+        <item id="pagina11_02" href="resources/images/pagina11_02.png" media-type="image/png"/>
+        <item id="pagina11_03" href="resources/images/pagina11_03.png" media-type="image/png"/>
+        <item id="pagina11_04" href="resources/images/pagina11_04.png" media-type="image/png"/>
+        <item id="pagina12_01" href="resources/images/pagina12_01.png" media-type="image/png"/>
+        <item id="pagina12_02" href="resources/images/pagina12_02.png" media-type="image/png"/>
+        <item id="pagina12_03" href="resources/images/pagina12_03.png" media-type="image/png"/>
+        <item id="pagina13_01" href="resources/images/pagina13_01.png" media-type="image/png"/>
+        <item id="pagina13_02" href="resources/images/pagina13_02.png" media-type="image/png"/>
+        <item id="pagina13_03" href="resources/images/pagina13_03.png" media-type="image/png"/>
+        <item id="pagina14_01" href="resources/images/pagina14_01.png" media-type="image/png"/>
+        <item id="pagina14_02" href="resources/images/pagina14_02.png" media-type="image/png"/>
+        <item id="pagina14_03" href="resources/images/pagina14_03.png" media-type="image/png"/>
+        <item id="pagina15_01" href="resources/images/pagina15_01.png" media-type="image/png"/>
+        <item id="pagina15_02" href="resources/images/pagina15_02.png" media-type="image/png"/>
+        <item id="pagina15_03" href="resources/images/pagina15_03.png" media-type="image/png"/>
+        <item id="pagina16_01" href="resources/images/pagina16_01.png" media-type="image/png"/>
+        <item id="pagina16_02" href="resources/images/pagina16_02.png" media-type="image/png"/>
+        <item id="pagina17_01" href="resources/images/pagina17_01.png" media-type="image/png"/>
+        <item id="pagina17_02" href="resources/images/pagina17_02.png" media-type="image/png"/>
+        <item id="pagina18_01" href="resources/images/pagina18_01.png" media-type="image/png"/>
+        <item id="pagina19_01" href="resources/images/pagina19_01.png" media-type="image/png"/>    
+    </manifest>
+    <spine toc="toc">
+        <itemref idref="index"/>
+        <itemref idref="content"/>
+    </spine>
+    
+    <guide>
+        <reference href="index.html#toc" type="toc" title="Table of Contents" />
+    </guide>
+</package>
